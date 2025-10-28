@@ -3,9 +3,6 @@
 		"generator":"Khronos glTF Blender I/O v4.5.47",
 		"version":"2.0"
 	},
-	"extensionsUsed":[
-		"EXT_texture_webp"
-	],
 	"scene":0,
 	"scenes":[
 		{
@@ -23,7 +20,6 @@
 	],
 	"materials":[
 		{
-			"doubleSided":true,
 			"name":"low",
 			"normalTexture":{
 				"index":0
@@ -56,58 +52,28 @@
 	],
 	"textures":[
 		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":0
-				}
-			},
+			"sampler":0,
+			"source":0
+		},
+		{
 			"sampler":0,
 			"source":1
 		},
 		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":2
-				}
-			},
 			"sampler":0,
-			"source":3
-		},
-		{
-			"extensions":{
-				"EXT_texture_webp":{
-					"source":4
-				}
-			},
-			"sampler":0,
-			"source":5
+			"source":2
 		}
 	],
 	"images":[
-		{
-			"mimeType":"image/webp",
-			"name":"Ucupaint low Normal",
-			"uri":"Ucupaint%20low%20Normal.webp"
-		},
 		{
 			"mimeType":"image/png",
 			"name":"Ucupaint low Normal",
 			"uri":"Ucupaint%20low%20Normal.png"
 		},
 		{
-			"mimeType":"image/webp",
-			"name":"Ucupaint low Color",
-			"uri":"Ucupaint%20low%20Color.webp"
-		},
-		{
 			"mimeType":"image/png",
 			"name":"Ucupaint low Color",
 			"uri":"Ucupaint%20low%20Color.png"
-		},
-		{
-			"mimeType":"image/webp",
-			"name":"Ucupaint low Metallic-Ucupaint low Roughness",
-			"uri":"Ucupaint%20low%20Metallic-Ucupaint%20low%20Roughness.webp"
 		},
 		{
 			"mimeType":"image/png",
