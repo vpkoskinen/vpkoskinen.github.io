@@ -29,9 +29,9 @@ scene.add(groundMesh);
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.05);
 scene.add(ambientLight);
 
-const lightvalues = [[new THREE.Vector3(10.269,10.269,10.269), 0xE3E6FF, 300.0, true],
-					[new THREE.Vector3(-14.3872,6.14344,10.104), 0xFFF9DD, 150.0, false],
-					[new THREE.Vector3(-0.573415,10.4088,-15.4321), 0xE3E6FF, 50.0, false]
+const lightvalues = [[new THREE.Vector3(10.269,10.269,10.269), 0xE3E6FF, 600.0, true],
+					[new THREE.Vector3(-14.3872,6.14344,10.104), 0xFFF9DD, 300.0, false],
+					[new THREE.Vector3(-0.573415,10.4088,-15.4321), 0xE3E6FF, 100.0, false]
 				];
 //const lightvalues = [[new THREE.Vector3(10.269,10.269,10.269), 0xE3E6FF]];
 
